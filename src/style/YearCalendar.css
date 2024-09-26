@@ -1,0 +1,109 @@
+
+.fc {
+    background-color: #E5E7EB;
+    color: black;
+    border: none;
+    height: 100vh;
+    overflow: auto; 
+    
+  }
+  
+  .fc::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .fc .fc-scroller {
+    scrollbar-width: none; 
+  }
+  
+  .fc .fc-daygrid-day-frame {
+    background-color: #ffffff;
+    
+  }
+  
+  .fc .fc-multimonth {
+    border: none;
+  }
+  
+  .fc .fc-toolbar.fc-header-toolbar {
+    display: none;
+  }
+  
+
+  
+  .fc table {
+    border: hidden;
+  }
+  
+  .fc .fc-daygrid-day-top {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  .fc .fc-multimonth-title::after {
+    content: "2024";
+    font-size: 0.9em; 
+    color: black; 
+    margin-left: 0.5em; 
+  }
+  .fc-theme-standard td, .fc-theme-standard th {
+    border: none    ;
+}
+/*custom month calendar class*/
+.fc-custom>.fc{
+  background-color: #E5E7EB;
+  color: black;
+  border: none; 
+  overflow: auto;
+  height: 350px; 
+  width: 280px;
+  padding: 10px;
+  /* border: 1px solid white; */
+  border-radius: 4%;
+  margin: auto;
+
+}
+.fc-custom > .fc::-webkit-scrollbar {
+  display: none; 
+}
+
+.fc-custom > .fc .fc-scroller {
+  scrollbar-width: none; 
+}
+
+.fc-custom > .fc .fc-daygrid-day-frame {
+  background-color: #ffffff;
+  
+}
+
+.fc-custom > .fc .fc-multimonth {
+  border: none;
+}
+
+.fc-custom > .fc .fc-toolbar.fc-header-toolbar {
+  display : flex;
+  font-size: 10px;
+}
+
+.fc-custom > .fc .fc-multimonth-title {
+  text-align: start;
+}
+
+.fc-custom > .fc table {
+  border: hidden;
+}
+
+.fc-custom > .fc .fc-daygrid-day-top {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.fc-custom > .fc .fc-multimonth-title::after {
+  content: "2024";
+  font-size: 0.9em; 
+  color: white; 
+  margin-left: 0.5em; 
+}
+.fc-custom > .fc-theme-standard td, .fc-theme-standard th {
+  border: none    ;
+}
